@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="/styles.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/img/motorcycle-svgrepo-com.svg" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">What I do</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Dylan Bartle</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Financial & Data Analyst</p>
+            <img src="/images/img/6AE1906B-DEEA-4821-935A-A6AC4EBC6631_1_201_a.jpeg" alt="a picture of Jane Smith smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Analytics: Story Telling with Data</h3>
+                    <p>I leverage tools like Plotly and Tableau to create beautiful and informative interactive visualizations. This allows users to explore data dynamically, uncovering hidden insights and trends.</p>
+                </div> 
+                <div class="service">
+                    <h3>Excel Powerhouse</h3>
+                    <p>My advanced Excel skills extend beyond basic data manipulation. I can create complex pivot tables to summarize and analyze large datasets, leveraging advanced features like slicers, calculated fields, and data validation for efficient data exploration.</p>
+                </div>
+                <div class="service">
+                    <h3>Ploty Expertise</h3>
+                    <p>I'm proficient in Plotly, a Python library that excels at generating highly customizable interactive charts and graphs. I can tailor visualizations to specific datasets, enhancing data exploration and user engagement.</p>
+                </div>
+                <div class="service">
+                    <h3>Tableau Mastry</h3>
+                    <p> My expertise in Tableau allows me to quickly build dashboards and reports that communicate complex data in a clear and concise manner. I can design user-friendly interfaces that encourage data exploration and informed decision-making.</p>
+                </div>
+                <div class="service">
+                    <h3>Data Collection & Processing</h3>
+                    <p>Whether its scraping the web with Beautiful Soup, cleaning data from csv's with Python and Pandas, or querying a SQL database, I have experience converting messy data into useful insights. </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Python</h3>
+                    <p>Data enthusiast with a passion for building efficient and versatile software solutions in Python. I leverage libraries like Pandas and Matplotlib to extract insights from data, crafting compelling narratives. My mission is to harness Python's power across various domains, from data analysis tools to web applications. Each project reflects a commitment to clean code, best practices, and a journey of innovation.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Bisiness Intellegence Data Analyst based out of Denver CO</p>
+           
+           <div class="about-me__body">
+               <p>I am an aspiring data analyst from Denver CO. I started my career in economics and finance and worked as a financial advisor for 5+ years.
+                I quickly realized that all of the decisions and recomendations I was making were based on financial software tools. As a naturally curios person I always want to understand how things work behind the scenes. 
+                Over the years my curiosity pushed me further and further into the technical aspects of the feild. As a result I descovered my passion for problem sovling and code.
+               </p>
+               <p>I have spent the last 3 years learning as much as I possibly can about software engineering and data science. Starting with the basics on Codecademy and FreeCodeCamp, building increasingly complex projects. I was so inspired and motivated to learn more I went back to school to get a degree in computer science. 
+                I am persuing a degree in computer science from CSU global and will be graduating in December. <br/><br/>Expected graduation December 2024.
+               </p>
+           </div>
+           
+           <img src="/images/img/IMG_0159.jpeg" alt="Hanging with Basil" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">MY PROJECTS & HOBBIES</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/img/IMG_1051.JPG" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="currency-blog.html" class="portfolio__item">
+                    <img src="images/img/currencies-69522_1280.jpg"" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="rect-project.html" class="portfolio__item">
+                    <img src="images/img/6518027.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item2.html" class="portfolio__item">
+                    <img src="images/img/IMG_7241.jpeg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/img/portfolio-06.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/img/portfolio-06.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/img/portfolio-07.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/img/portfolio-08.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 09 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/img/portfolio-09.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 0 10-->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/img/portfolio-05.jpg" alt="" class="portfolio__img">
+                </a>
+
+                 <!-- Portfolio item 0 10-->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/img/portfolio-04.jpg" alt="" class="portfolio__img">
+                </a>
+                         
+                <!-- Portfolio item 0 11-->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/img/portfolio-05.jpg" alt="" class="portfolio__img">
+                </a>
+
+
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="dylanbartle@hotmail.com" class="footer__link">dylanbartle@hotmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/dylan-bartle-8ab6a2131/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/bartlebytes94/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/BartleBytes">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>
