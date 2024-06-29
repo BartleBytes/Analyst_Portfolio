@@ -433,8 +433,8 @@ header {
     position: absolute; /* Position the label within the portfolio item */
     bottom: 10px; /* Position from the bottom of the container */
     left: 10px; /* Position from the left of the container */
-    z-index: 1; /* Ensure it appears above other content */
-/* footer */
+    z-index: 2; /* Ensure it appears above other content */
+}
 
 .footer {
     color: var(--clr-accent);
