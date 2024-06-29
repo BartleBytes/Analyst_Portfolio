@@ -430,12 +430,17 @@ header {
     text-align: center;
     display: inline-block;
     margin: 5px 0;
-    position: absolute; /* Position the label within the portfolio item */
-    bottom: 10px; /* Position from the bottom of the container */
-    left: 10px; /* Position from the left of the container */
-    z-index: 2; /* Ensure it appears above other content */
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 2;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 250ms ease-in-out;
 }
 
+.portfolio__item:hover .portfolio__item-label {
+    opacity: 1; /* Show label on hover */
+}
 .footer {
     color: var(--clr-accent);
     background: rgb(51, 51, 51);
