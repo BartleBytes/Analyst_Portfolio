@@ -379,11 +379,6 @@ header {
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
-<<<<<<< HEAD
-    text-align: center;
-=======
-
->>>>>>> master
 }
 
 .section__subtitle--work {
@@ -397,24 +392,6 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr ));
     
 }
-<<<<<<< HEAD
-
-.portfolio__item {
-    background: var(--clr-accent);
-    overflow: hidden;
-}
-
-.portfolio__img {
-    width: 100%;  /* Set width to 100% of its container */
-    height: 100%; /* Set height to 100% of its container */
-    object-fit: cover; 
-    transition:
-         transform 750ms cubic-bezier(.5, 0, .5, 1),
-         opacity 250ms linear;
-
-}
-
-=======
 /* Container for the portfolio item */
 .portfolio_item_container {
     position: relative;
@@ -440,7 +417,6 @@ header {
 }
 
 /* Hover and focus effect on the image */
->>>>>>> master
 .portfolio__item:focus {
     position: relative;
     z-index: 2;
@@ -449,31 +425,6 @@ header {
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
-<<<<<<< HEAD
-    opacity: .75;
-}
-
-.portfolio__item-label {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    display: inline-block;
-    margin: 5px 0;
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    z-index: 2;
-    opacity: 0; /* Initially hidden */
-    transition: opacity 250ms ease-in-out;
-}
-
-.portfolio__item:hover .portfolio__item-label {
-    opacity: 1; /* Show label on hover */
-=======
     opacity: 0.75;
 }
 
@@ -489,8 +440,6 @@ header {
     padding: 0em;
     font-size: 1rem; /* Adjust font size as needed */
     font-weight: var(--fw-bold);
-
->>>>>>> master
 }
 .footer {
     color: var(--clr-accent);
