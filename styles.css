@@ -141,7 +141,11 @@ header {
     padding: 1em;
 }
 .logo {
-    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 300px;
+    padding:100px; */
 }
 
 .nav {
